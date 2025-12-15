@@ -45,9 +45,4 @@ diversity_report = pd.DataFrame({
 })
 diversity_report.to_csv("../reports/feature_diversity_report.csv", index=False, encoding="utf-8-sig")
 
-print("\nSaved:")
-print("- feature_elongations_report.csv (count)")
-print("- feature_periods_report.csv (count)")
-print("- feature_verbs_report.csv (count)")
-print("- feature_duals_report.csv (count)")
-print("- feature_diversity_report.csv (diversity ratio)")
+print("\n reports saved")
